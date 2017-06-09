@@ -16,20 +16,20 @@ import com.taotao.rest.service.ContentService;
 @Controller
 @RequestMapping("/content")
 public class ContentController {
-	
+
 	@Autowired
 	private ContentService contentService;
-	
+
 	@RequestMapping("/list/{contentCategoryId}")
 	@ResponseBody
-	public TaotaoResult getContentList(@PathVariable Long contentCategoryId){
-		try{List<TbContent> list = contentService.getContentList(contentCategoryId);
-		
-		return TaotaoResult.ok(list);}
-		catch(Exception e){
+	public TaotaoResult getContentList(@PathVariable Long contentCategoryId) {
+		try {
+			List<TbContent> list = contentService.getContentList(contentCategoryId);
+			return TaotaoResult.ok(list);
+		} catch (Exception e) {
 			e.printStackTrace();
-			return  TaotaoResult.build(500, ExceptionUtil.getStackTrace(e));
+			return TaotaoResult.build(500, ExceptionUtil.getStackTrace(e));
 		}
 	}
-	
+
 }
