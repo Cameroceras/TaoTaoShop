@@ -4,6 +4,8 @@ F:\JavaWebProject\taotao-portal\src\main\java\com\taotao\portal\interceptor\Logi
 F:\JavaWebProject\taotao-portal\src\main\java\com\taotao\portal\service\SearchService.java
 F:\JavaWebProject\taotao-portal\src\main\java\com\taotao\portal\controller\CartController.java
 F:\JavaWebProject\taotao-portal\src\main\java\com\taotao\portal\pojo\Item.java
+F:\JavaWebProject\taotao-portal\src\main\java\com\taotao\portal\service\impl\OrderServiceImpl.java
+F:\JavaWebProject\taotao-portal\src\main\java\com\taotao\portal\service\OrderService.java
 F:\JavaWebProject\taotao-portal\src\main\java\com\taotao\portal\pojo\CartItem.java
 F:\JavaWebProject\taotao-portal\src\main\java\com\taotao\portal\controller\ItemController.java
 F:\JavaWebProject\taotao-portal\src\main\java\com\taotao\portal\pojo\ItemInfo.java
@@ -12,7 +14,9 @@ F:\JavaWebProject\taotao-portal\src\main\java\com\taotao\portal\service\UserServ
 F:\JavaWebProject\taotao-portal\src\main\java\com\taotao\portal\service\impl\CartServiceImpl.java
 F:\JavaWebProject\taotao-portal\src\main\java\com\taotao\portal\controller\IndexController.java
 F:\JavaWebProject\taotao-portal\src\main\java\com\taotao\portal\service\impl\SearchServiceImpl.java
+F:\JavaWebProject\taotao-portal\src\main\java\com\taotao\portal\controller\OrderController.java
 F:\JavaWebProject\taotao-portal\src\main\java\com\taotao\portal\service\CartService.java
+F:\JavaWebProject\taotao-portal\src\main\java\com\taotao\portal\pojo\Order.java
 F:\JavaWebProject\taotao-portal\src\main\java\com\taotao\portal\service\impl\UserServiceImpl.java
 F:\JavaWebProject\taotao-portal\src\main\java\com\taotao\portal\pojo\SearchResult.java
 F:\JavaWebProject\taotao-portal\src\main\java\com\taotao\portal\service\impl\ContentServiceImpl.java
